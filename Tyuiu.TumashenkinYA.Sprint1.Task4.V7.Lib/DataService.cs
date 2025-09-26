@@ -6,7 +6,7 @@ namespace Tyuiu.TumashenkinYA.Sprint1.Task4.V7.Lib
         public double Calculate(double x, double y)
         {
             double Number = (1 + Math.Sqrt(x * y)) / Math.Pow(x - 3 * y, 2);
-            return Math.Round(Number, 3);
+            return Math.Floor(Number*1000)/1000;
         }
     }
 }
